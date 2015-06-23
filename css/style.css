@@ -1,0 +1,118 @@
+body {
+  /* Typography Declarations */
+  color: #222222;
+  font-size: 1em;
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.content-footer, 
+.masthead-heading,
+.masthead-intro {
+  text-align: center;
+}
+
+.masthead {
+  padding: 4em 0;
+  background-image: url("../images/NY crop2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: solid 1em #FFE371;
+  
+  
+}
+
+.masthead-intro {
+  /* Layout Declarations */
+  margin-bottom: 0.1em;
+  /* Typography Declarations */
+  font-family: "Gentium Book Basic", Georgia, serif;
+  font-size: 2em;
+  
+}
+
+.masthead-heading {
+    /* Layout Declarations */
+	margin-top: -0.2em;
+	/* Typography Declarations */
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	font-weight: bold;
+	font-size: 8em;
+	letter-spacing: -0.02em;
+	text-transform: uppercase;
+	color: #AEB292;
+	text-shadow: 0.030em 0.030em .025em #FFE371
+}
+
+.content-footer,
+.introduction-section,
+.location-section,
+.questions-section { 
+	max-width: 38em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2em;
+	}
+
+.social > li {
+    display: inline-block;
+} 
+
+.introduction-section p,
+.location-section p,
+.content-footer p {
+  /* Typography Declarations */
+	font-weight: 300;
+	letter-spacing: 0.05em;
+}
+
+.questions-section h2 {
+  /* Typography Declarations*/
+	font-family: "Gentium Book Basic", Georgia, serif;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #4A4644;
+	text-shadow: .10em .10em #FFE371;
+  /* Layout */
+	margin 2em 0 1em 0
+}
+
+section h1 {
+    color: #FFFF34;
+	text-shadow: .08em .08em gray;
+	margin-top: 2em;
+}
+
+.content-footer > p {
+    color: #4A4644;
+    font-weight: bold;
+}
+
+.content-footer {
+    background: #FFE371;
+    border-radius: .50em;
+    border: .15em solid #948D88;
+    box-shadow: .90em .90em .50em #2B2928;
+}
+
+/* media queries */
+
+@media only screen and (max-width: 500px) {
+	.masthead {
+		padding: 3em 0;
+	}  
+	.masthead-heading {
+		font-size: 2em;
+		
+	}
+	.content-footer {
+		padding: 0 4em;
+	}
+
+}
+
+
+
+
+
+
+ 
