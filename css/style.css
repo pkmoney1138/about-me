@@ -1,57 +1,64 @@
 body {
-  /* Typography Declarations */
-  color: #222222;
-  font-size: 1em;
-  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+	color: #222222;
+	font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+.background {
+	height: 400px;
+	width: 100%;
+	background-color: gray;
+	border-top: solid 20px #FFE371; 
 }
 
 .content-footer, 
 .masthead-heading,
-.masthead-intro {
-  text-align: center;
+.masthead-intro, 
+.sub-heading {
+	text-align: center;
 }
 
 .masthead {
-  padding: 4em 0;
-  background-image: url("../images/NY crop2.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-top: solid 1em #FFE371;
-  
+	margin: -20px auto;
+	height: 400px;
+	width: 1500px;
+	background-image: url("../images/NY crop2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-top: solid 20px #FFE371; 
   
 }
 
 .masthead-intro {
-  /* Layout Declarations */
-  margin-bottom: 0.1em;
-  /* Typography Declarations */
+  margin-top: 10px;
   font-family: "Gentium Book Basic", Georgia, serif;
-  font-size: 2em;
+  font-size: 40px;
   
 }
 
 .masthead-heading {
-    /* Layout Declarations */
-	margin-top: -0.2em;
-	/* Typography Declarations */
 	font-family: "Open Sans", "Helvetica Neue", sans-serif;
 	font-weight: bold;
-	font-size: 8em;
-	letter-spacing: -0.02em;
+	font-size: 150px;
+	letter-spacing: -1px;
 	text-transform: uppercase;
 	color: #AEB292;
-	text-shadow: 0.030em 0.030em .025em #FFE371
+	text-shadow: 2px 2px 4px #FFE371
+}
+.sub-heading {
+	margin-top: 5px;
+	font-size: 80px;
+	color: white;
 }
 
 .content-footer,
 .introduction-section,
 .location-section,
-.questions-section { 
-	max-width: 38em;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 2em;
-	}
+.questions-section,
+.projects,
+.frozen,
+.webpage { 
+	width: 800px;
+	margin: 5px auto;
+}
 
 .social > li {
     display: inline-block;
@@ -61,27 +68,57 @@ body {
 .location-section p,
 .content-footer p {
   /* Typography Declarations */
+	margin-top: 4px;
 	font-weight: 300;
-	letter-spacing: 0.05em;
+
 }
 
-.questions-section h2 {
-  /* Typography Declarations*/
+.questions-section h2 {			
+	margin-top: 4px;
 	font-family: "Gentium Book Basic", Georgia, serif;
-	font-size: 1.2em;
+	font-size: 20px;
 	font-weight: bold;
 	color: #4A4644;
-	text-shadow: .10em .10em #FFE371;
-  /* Layout */
-	margin 2em 0 1em 0
+	text-shadow: 1px 1px #FFE371;
+}
+.questions-section p {
+	margin-top: 4px;
+}
+#music {
+	padding-bottom: 10px;
+	border-bottom: 20px solid #FFE371;
 }
 
 section h1 {
     color: #FFFF34;
-	text-shadow: .08em .08em gray;
-	margin-top: 2em;
+	text-shadow: 1px 1px gray;
+	text-align: center;
+	margin-top: 20px;
 }
 
+.projects h1,
+.projects p {
+	text-align: center;
+}
+.projects h1 {
+	font-size: 40px;
+}
+.projects p {
+	margin-top: 4px;
+	text-align: left;
+}
+.frozen {
+	height: 400px;
+	border: 1px solid blue;
+	background-image: url('../images/NY Times.jpg');
+	background-size: contain;
+}
+.webpage {
+	height: 400px;
+	border: 1px solid orange;
+	background: url('../images/clone.png') no-repeat 110px;
+	background-size: contain;
+}
 .content-footer > p {
     color: #4A4644;
     font-weight: bold;
@@ -89,9 +126,9 @@ section h1 {
 
 .content-footer {
     background: #FFE371;
-    border-radius: .50em;
-    border: .15em solid #948D88;
-    box-shadow: .90em .90em .50em #2B2928;
+    border-radius: 8px;
+    border: 2px solid #948D88;
+    box-shadow: 14px 14px 8px #2B2928;
 }
 
 /* media queries */
